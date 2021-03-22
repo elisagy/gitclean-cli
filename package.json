@@ -15,5 +15,9 @@
     "co": "^4.6.0",
     "exec": "^0.2.1",
     "prompt": "^1.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elisagy/gitclean-cli.git"
+  },
 }
