@@ -45,7 +45,7 @@ co(function* run() {
             if (!["y", "yes"].includes(confirm.toLowerCase())) {
                 return;
             }
-            yield execute(`git branch -D ${branchesToBeRemoved.join(" ")}`);
+            yield execute(`git branch -d ${branchesToBeRemoved.join(" ")}`);
             console.log("Done!");
         } else {
             console.log("No branches to be removed");
